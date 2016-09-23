@@ -15,6 +15,10 @@
 		D4587F651D95812600B928F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4587F631D95812600B928F1 /* LaunchScreen.storyboard */; };
 		D4587F701D95812600B928F1 /* BabyMoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4587F6F1D95812600B928F1 /* BabyMoodTests.swift */; };
 		D4587F7B1D95812600B928F1 /* BabyMoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4587F7A1D95812600B928F1 /* BabyMoodUITests.swift */; };
+		D4587F8A1D9583B100B928F1 /* ViewModelServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4587F891D9583B100B928F1 /* ViewModelServices.swift */; };
+		D4587F8C1D95844900B928F1 /* NavigationEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4587F8B1D95844900B928F1 /* NavigationEvent.swift */; };
+		D4587F8F1D9584A700B928F1 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4587F8E1D9584A700B928F1 /* ViewModel.swift */; };
+		D4587F911D9584FC00B928F1 /* ReactiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4587F901D9584FC00B928F1 /* ReactiveViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		D4587F761D95812600B928F1 /* BabyMoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabyMoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4587F7A1D95812600B928F1 /* BabyMoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyMoodUITests.swift; sourceTree = "<group>"; };
 		D4587F7C1D95812600B928F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4587F891D9583B100B928F1 /* ViewModelServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewModelServices.swift; path = Impl/ViewModelServices.swift; sourceTree = "<group>"; };
+		D4587F8B1D95844900B928F1 /* NavigationEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationEvent.swift; path = Impl/NavigationEvent.swift; sourceTree = "<group>"; };
+		D4587F8E1D9584A700B928F1 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewModel.swift; path = "Base Classes/ViewModel.swift"; sourceTree = "<group>"; };
+		D4587F901D9584FC00B928F1 /* ReactiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReactiveViewController.swift; path = "Base Classes/ReactiveViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,8 @@
 		D4587F571D95812600B928F1 /* BabyMood */ = {
 			isa = PBXGroup;
 			children = (
+				D4587F8D1D95848500B928F1 /* Base Classes */,
+				D4587F881D95838900B928F1 /* Impl */,
 				D4587F581D95812600B928F1 /* AppDelegate.swift */,
 				D4587F5A1D95812600B928F1 /* FirstViewController.swift */,
 				D4587F5C1D95812600B928F1 /* SecondViewController.swift */,
@@ -126,6 +136,24 @@
 				D4587F7C1D95812600B928F1 /* Info.plist */,
 			);
 			path = BabyMoodUITests;
+			sourceTree = "<group>";
+		};
+		D4587F881D95838900B928F1 /* Impl */ = {
+			isa = PBXGroup;
+			children = (
+				D4587F891D9583B100B928F1 /* ViewModelServices.swift */,
+				D4587F8B1D95844900B928F1 /* NavigationEvent.swift */,
+			);
+			name = Impl;
+			sourceTree = "<group>";
+		};
+		D4587F8D1D95848500B928F1 /* Base Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D4587F8E1D9584A700B928F1 /* ViewModel.swift */,
+				D4587F901D9584FC00B928F1 /* ReactiveViewController.swift */,
+			);
+			name = "Base Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +292,10 @@
 			files = (
 				D4587F5D1D95812600B928F1 /* SecondViewController.swift in Sources */,
 				D4587F591D95812600B928F1 /* AppDelegate.swift in Sources */,
+				D4587F8C1D95844900B928F1 /* NavigationEvent.swift in Sources */,
+				D4587F911D9584FC00B928F1 /* ReactiveViewController.swift in Sources */,
+				D4587F8A1D9583B100B928F1 /* ViewModelServices.swift in Sources */,
+				D4587F8F1D9584A700B928F1 /* ViewModel.swift in Sources */,
 				D4587F5B1D95812600B928F1 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
