@@ -19,6 +19,13 @@
 		D4587F8C1D95844900B928F1 /* NavigationEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4587F8B1D95844900B928F1 /* NavigationEvent.swift */; };
 		D4587F8F1D9584A700B928F1 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4587F8E1D9584A700B928F1 /* ViewModel.swift */; };
 		D4587F911D9584FC00B928F1 /* ReactiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4587F901D9584FC00B928F1 /* ReactiveViewController.swift */; };
+		D4587F991D96DD4C00B928F1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4587F981D96DD4C00B928F1 /* Extensions.swift */; };
+		D4587FB21D96E07400B928F1 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4587FAD1D96E07400B928F1 /* ReactiveCocoa.framework */; };
+		D4587FB31D96E07500B928F1 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4587FAE1D96E07400B928F1 /* Realm.framework */; };
+		D4587FB41D96E07500B928F1 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4587FAF1D96E07400B928F1 /* RealmSwift.framework */; };
+		D4587FB51D96E07500B928F1 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4587FB01D96E07400B928F1 /* Result.framework */; };
+		D4587FB61D96E07500B928F1 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4587FB11D96E07400B928F1 /* SnapKit.framework */; };
+		D4B922731D9899180011C118 /* TabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B922721D9899180011C118 /* TabViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +44,19 @@
 			remoteInfo = BabyMood;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D4587FA61D96DDB200B928F1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D4587F551D95812600B928F1 /* BabyMood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyMood.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +77,13 @@
 		D4587F8B1D95844900B928F1 /* NavigationEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationEvent.swift; path = Impl/NavigationEvent.swift; sourceTree = "<group>"; };
 		D4587F8E1D9584A700B928F1 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewModel.swift; path = "Base Classes/ViewModel.swift"; sourceTree = "<group>"; };
 		D4587F901D9584FC00B928F1 /* ReactiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReactiveViewController.swift; path = "Base Classes/ReactiveViewController.swift"; sourceTree = "<group>"; };
+		D4587F981D96DD4C00B928F1 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Extensions/Extensions.swift; sourceTree = "<group>"; };
+		D4587FAD1D96E07400B928F1 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = ../Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		D4587FAE1D96E07400B928F1 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = ../Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		D4587FAF1D96E07400B928F1 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = ../Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		D4587FB01D96E07400B928F1 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = ../Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		D4587FB11D96E07400B928F1 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = ../Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		D4B922721D9899180011C118 /* TabViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabViewModel.swift; path = App/TabViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +91,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4587FB21D96E07400B928F1 /* ReactiveCocoa.framework in Frameworks */,
+				D4587FB31D96E07500B928F1 /* Realm.framework in Frameworks */,
+				D4587FB41D96E07500B928F1 /* RealmSwift.framework in Frameworks */,
+				D4587FB51D96E07500B928F1 /* Result.framework in Frameworks */,
+				D4587FB61D96E07500B928F1 /* SnapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +123,7 @@
 				D4587F6E1D95812600B928F1 /* BabyMoodTests */,
 				D4587F791D95812600B928F1 /* BabyMoodUITests */,
 				D4587F561D95812600B928F1 /* Products */,
+				D4587F921D96DA5600B928F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +140,8 @@
 		D4587F571D95812600B928F1 /* BabyMood */ = {
 			isa = PBXGroup;
 			children = (
+				D4B922711D9898F00011C118 /* App */,
+				D4587F971D96DD1400B928F1 /* Extensions */,
 				D4587F8D1D95848500B928F1 /* Base Classes */,
 				D4587F881D95838900B928F1 /* Impl */,
 				D4587F581D95812600B928F1 /* AppDelegate.swift */,
@@ -156,6 +191,34 @@
 			name = "Base Classes";
 			sourceTree = "<group>";
 		};
+		D4587F921D96DA5600B928F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4587FAD1D96E07400B928F1 /* ReactiveCocoa.framework */,
+				D4587FAE1D96E07400B928F1 /* Realm.framework */,
+				D4587FAF1D96E07400B928F1 /* RealmSwift.framework */,
+				D4587FB01D96E07400B928F1 /* Result.framework */,
+				D4587FB11D96E07400B928F1 /* SnapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4587F971D96DD1400B928F1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D4587F981D96DD4C00B928F1 /* Extensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		D4B922711D9898F00011C118 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D4B922721D9899180011C118 /* TabViewModel.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -166,6 +229,8 @@
 				D4587F511D95812600B928F1 /* Sources */,
 				D4587F521D95812600B928F1 /* Frameworks */,
 				D4587F531D95812600B928F1 /* Resources */,
+				D4587FA61D96DDB200B928F1 /* Embed Frameworks */,
+				D4587FA71D96DDEB00B928F1 /* Carthage copy frameworks */,
 			);
 			buildRules = (
 			);
@@ -285,6 +350,28 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D4587FA71D96DDEB00B928F1 /* Carthage copy frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/../Carthage/Build/iOS/Result.framework",
+				"$(SRCROOT)/../Carthage/Build/iOS/ReactiveCocoa.framework",
+				"$(SRCROOT)/../Carthage/Build/iOS/RealmSwift.framework",
+				"$(SRCROOT)/../Carthage/Build/iOS/Realm.framework",
+				"$(SRCROOT)/../Carthage/Build/iOS/SnapKit.framework",
+			);
+			name = "Carthage copy frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks ";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D4587F511D95812600B928F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -293,9 +380,11 @@
 				D4587F5D1D95812600B928F1 /* SecondViewController.swift in Sources */,
 				D4587F591D95812600B928F1 /* AppDelegate.swift in Sources */,
 				D4587F8C1D95844900B928F1 /* NavigationEvent.swift in Sources */,
+				D4587F991D96DD4C00B928F1 /* Extensions.swift in Sources */,
 				D4587F911D9584FC00B928F1 /* ReactiveViewController.swift in Sources */,
 				D4587F8A1D9583B100B928F1 /* ViewModelServices.swift in Sources */,
 				D4587F8F1D9584A700B928F1 /* ViewModel.swift in Sources */,
+				D4B922731D9899180011C118 /* TabViewModel.swift in Sources */,
 				D4587F5B1D95812600B928F1 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,6 +486,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -439,6 +529,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -448,11 +539,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Carthage/Build/iOS";
 				INFOPLIST_FILE = BabyMood/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.worthlessapps.BabyMood;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -460,11 +552,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Carthage/Build/iOS";
 				INFOPLIST_FILE = BabyMood/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.worthlessapps.BabyMood;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -541,6 +634,7 @@
 				D4587F811D95812600B928F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4587F821D95812600B928F1 /* Build configuration list for PBXNativeTarget "BabyMoodTests" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +643,7 @@
 				D4587F841D95812600B928F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4587F851D95812600B928F1 /* Build configuration list for PBXNativeTarget "BabyMoodUITests" */ = {
 			isa = XCConfigurationList;
@@ -557,6 +652,7 @@
 				D4587F871D95812600B928F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

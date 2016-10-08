@@ -26,6 +26,7 @@ enum NavigationEvent {
         } else {
             self = .Push(UIViewController(), .Push)
         }*/
+        self = .Push(UIViewController(), .Push)
     }
     
 }

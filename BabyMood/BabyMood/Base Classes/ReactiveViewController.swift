@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import ReactiveCocoa
 
 class ReactiveViewController<T: ViewModelProtocol>: UIViewController {
     
